@@ -9,11 +9,11 @@
     "cz-cust": "./standalone.js"
   },
   "scripts": {
-    "lint": "node_modules/eslint/bin/eslint.js *.js __tests__/**.js",
+    "lint": "npx eslint *.js __tests__/**.js",
     "test": "jest",
     "test:watch": "jest -- --watch",
     "semantic-release": "semantic-release",
-    "prettier": "prettier --single-quote --trailing-comma es5 --write '*.js' 'spec/**/*.js'",
+    "format": "prettier --write .",
     "commit": "npm run lint && npm run test && ./standalone.js"
   },
   "homepage": "https://github.com/leoforfree/cz-customizable",

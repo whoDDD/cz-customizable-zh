@@ -1,0 +1,7 @@
+# .prettierrc.yaml
+singleQuote: true # 使用单引号而不是双引号
+semi: false # 不在语句末尾添加分号
+printWidth: 100 # 每行代码的最大宽度，超过这个宽度的代码将会换行
+trailingComma: none # 在对象或数组最后一个元素后面不添加逗号
+endOfLine: lf # 使用 Windows 风格的行结束符（Carriage Return Line Feed）
+tabWidth: 2 # Tab缩进大小，默认为2
