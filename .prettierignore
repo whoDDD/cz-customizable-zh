@@ -6,3 +6,4 @@ LICENSE.md
 .vscode
 coverage
 README.md
+*.test.js
